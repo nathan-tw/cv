@@ -1,172 +1,163 @@
 ---
 # Display name
-title: 吳健雄
+title: 林宣佑
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Hsuan Yu Lin
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Status emoji
-status:
-  icon: ☕️
+first_name: Hsuan Yu
+last_name: Lin
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
-
-# Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+role: Software Engineer / DevOps Engineer
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:nathan.lin0213@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/nathan-tw
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://linkedin.com/in/hsuan-yu-lin-nathan/
+
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Bachelor of Science in Management Information Systems
+    institution: National Chengchi University
+    date_start: 2017-09-01
+    date_end: 2021-06-30
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      Completed degree in Management Information Systems with focus on technical skills and business applications.
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Software Engineer -- System Testing
+    company_name: Oracle
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2024-05-01
     date_end: ''
     summary: |2-
+      Working with OCI, Oracle Database, Python, and IPv6
+      
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Covered 20+ cluster network testing issue including node failover, IPv6 neighbor discovery and SELinux
+      - Optimized user experience by filing bugs and feature enhancements like fixed ports data transfer
+      - Automated OCI exaDB-D database lifecycle management testing flow using Python
+      
+  - position: DevOps Engineer
+    company_name: Ubiquiti
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2022-02-01
+    date_end: 2024-05-01
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Worked with AWS, ECS, Terraform, Go, Python, Email systems, and Rate limiting
+      
+      Accomplishments include:
+      - Achieved a 90% reduction in bounce rate through email tracking and DNS validation
+      - Significantly reduced spam mail by 80% through the implementation of a rate limiter with various dimensions
+      - Reduced deployment time by 20% through CI/CD implementation with AWS CodePipeline and blue-green deployment
+      - Successfully managed over 10+ environments by configuring cloud-based infrastructures using Terraform
+      - Achieved a 50% improvement in response time by optimizing database query through analysis of slow queries
+      - Delivered a 30% reduction in unauthorized access attempts and a 25% increase in user satisfaction by integrating door access with facial recognition technology and Apple Wallet passes
+      
+  - position: DevOps Engineer (part time)
+    company_name: Swif
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-11-01
+    date_end: 2024-02-01
+    summary: |
+      Worked remotely with GCP, Kubernetes, Helm, ElasticSearch, and SSL.
+      
+      Key contributions:
+      - Achieved a 99.9% uptime rate by effectively managing a Kubernetes cluster deployed on GKE
+      - Maintained strict industry security standards by overseeing 50+ SSL certificates with ACME
+      - Spearheaded efforts with Vanta to resolve 20+ security issues, crucial in securing the SOC2 certificate and ensuring a compliant infrastructure
+      
+  - position: DevOps Engineer Intern
+    company_name: Garmin
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-07-01
+    date_end: 2021-09-30
+    summary: |
+      Worked with Kubernetes, Jmeter, Gitlab-CI, and Java
+      
+      Accomplishments:
+      - Boosted resource utilization efficiency by 30% by building a Kubernetes cluster on local servers using Kubeadm
+      - Covered 80% of RESTful APIs by seamlessly integrating a load testing service with JMeter into our CI pipeline
+      
+  - position: DevOps Engineer Intern
+    company_name: KKStream
+    company_url: ''
+    company_logo: ''
+    date_start: 2020-09-01
+    date_end: 2021-06-30
+    summary: |
+      Utilized AWS, Lambda, Terraform, and Gitlab-CI
+      
+      Key achievements:
+      - Mitigated 70% of hardware-related errors for migration by transitioning from a local server to an AWS Lambda
+      - Performed Swift UI testing with XCUI framework to enhance application validation, reducing manual testing efforts by 80%
+      
+  - position: Research Intern
+    company_name: Academia Sinica
+    company_url: ''
+    company_logo: ''
+    date_start: 2020-07-01
+    date_end: 2020-09-30
+    summary: |
+      Focused on ML, Static/Dynamic Analysis, Cuckoo, and Windows PE file analysis
+      
+      Research outcome:
+      - Obtained a 95% accuracy rate in Windows malware detection via the comprehensive integration of dynamic and static analysis methodologies, leveraging the predictive capabilities of both LightGBM and LSTM models
+
+# Projects section
+projects:
+  - title: Rate Limiter
+    url: https://github.com/nathan-tw/rate-limiter
+    date: 2023-11-01
+    summary: |
+      Developed using Go, Lua, Redis, and Docker
+      - Developed a rate-limiting middleware for routing, employing sliding window and fixed window strategies
+      - Offered both synchronous and asynchronous testing options while containerizing the project for simplified setup
+      
+  - title: Crypto Trading Bot
+    url: https://github.com/nathan-tw/tradingview-go
+    date: 2021-01-01
+    summary: |
+      Built with Go, Gin, Heroku, TradingView, and Terraform
+      - Developed a transaction system for crypto trading, receiving webhooks from TradingView
+      - Deployed application to Linux virtual machines on both Heroku and Linode platforms
+      
+  - title: Vector Space Model
+    url: https://github.com/nathan-tw/vector-space-model
+    date: 2020-10-01
+    summary: |
+      Created using Python and Numpy
+      - Developed a vector space model integrating Euclidean distance and cosine similarity for distance calculation
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
-        description: ''
+      - name: DevOps
+        description: 'CI/CD (Gitlab, Github, AWS Codepipeline, Argo, Jenkins), Kubernetes, Docker, Grafana, ElasticSearch, Jmeter'
+        percent: 90
+      - name: Languages
+        description: 'Python, Go, C, C++, Java, JavaScript, SQL, Bash'
+        percent: 85
+      - name: Web
+        description: 'Gin (Go), Flask (Python), React, Nginx, DNS, Mail Server'
         percent: 80
-        icon: devicon/python
-      - name: RStudio
-        description: ''
-        percent: 100
-        icon: devicon/rstudio
-      - name: PyTorch
-        description: ''
-        percent: 40
-        icon: devicon/pytorch
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
 
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+I am a Software/DevOps Engineer with experience in cloud infrastructure, automation, and system testing. My expertise spans across AWS, GCP, Kubernetes, and various programming languages including Python and Go. I have a proven track record of improving system performance, reducing errors, and implementing efficient CI/CD pipelines.

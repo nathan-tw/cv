@@ -1,0 +1,1264 @@
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: March 2, 2025 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="system">
+  
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="林宣佑" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="A highly-customizable Hugo résumé theme powered by Hugo Blox Builder." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/" />
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/themes/blue.min.css" />
+  
+
+  
+  
+    
+    <link href="/dist/wc.min.css" rel="stylesheet" />
+  
+
+  
+  
+  
+
+  
+
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Résumé Hugo Theme" />
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu_5cac115d14ed3d49.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_e7f327b39c12e7ca.png" />
+
+  <link rel="canonical" href="http://localhost:1313/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@GetResearchDev" />
+    <meta property="twitter:creator" content="@GetResearchDev" />
+  
+  <meta property="og:site_name" content="Résumé Hugo Theme" />
+  <meta property="og:url" content="http://localhost:1313/" />
+  <meta property="og:title" content="Home | Résumé Hugo Theme" />
+  <meta property="og:description" content="A highly-customizable Hugo résumé theme powered by Hugo Blox Builder." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_645fa481986063ef.png" />
+    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu_645fa481986063ef.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2023-10-24T00:00:00&#43;00:00" />
+    
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite","url": "http://localhost:1313/"
+}
+</script>
+
+
+  
+
+
+  <title>Home | Résumé Hugo Theme</title>
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
+  
+
+  
+  
+
+
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header ">
+      
+      
+      
+        
+        
+        
+          <div class="absolute right-0 top-0 m-3 bg-primary-100 dark:bg-primary-700 rounded-full p-2 z-10">
+  <div class="h-[24px] w-[24px]">
+    <button class="theme-toggle" accesskey="t" title="" aria-label="Display preferences">
+      <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" class="dark:hidden">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+      </svg>
+      <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+           fill="none" stroke="white" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+        <circle cx="12" cy="12" r="5"></circle>
+        <line x1="12" y1="1" x2="12" y2="3"></line>
+        <line x1="12" y1="21" x2="12" y2="23"></line>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+        <line x1="1" y1="12" x2="3" y2="12"></line>
+        <line x1="21" y1="12" x2="23" y2="12"></line>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+      </svg>
+    </button>
+  </div>
+</div>
+
+        
+      
+    </div>
+    <div class="page-body ">
+      
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-resume-biography" class="relative hbb-section blox-resume-biography  " style="padding: 4rem 0 4rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full bg-gray-200 dark:bg-gray-900 flex flex-wrap items-center justify-center">
+    <div class="w-full bg-white rounded dark:bg-gray-800">
+      <div class="h-2/4 sm:h-64 overflow-hidden w-full">
+        <img class="w-full object-cover"
+             src="/media/kalen-emsley-Bkci_8qcdvQ-unsplash_hu_74ce2e412ea778cc.webp"
+             width="5760" height="1677"
+             alt="" />
+      </div>
+    </div>
+  </div>
+
+
+
+<div id="profile" class="resume-biography flex justify-center items-center flex-col dark:text-white">
+  
+
+  <div class="avatar-wrapper -mt-[105px]">
+    
+    <img class="avatar rounded-full bg-white dark:bg-gray-800 p-1" src="/author/%E6%9E%97%E5%AE%A3%E4%BD%91/avatar_hu_7fb1e111860ea5a9.jpg" alt="林宣佑"
+         width="150" height="150">
+    
+  </div>
+  
+
+  <div class="text-3xl font-bold mb-2 mt-6"><ruby>
+        <rb>林宣佑</rb>
+        <rt>Hsuan Yu Lin</rt>
+      </ruby></div>
+
+  <h3 class="font-semibold mb-1">Software Engineer / DevOps Engineer</h3>
+
+  
+
+  <ul class="network-icon dark:text-zinc-100">
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:nathan.lin0213@gmail.com"  aria-label="at-symbol"
+          data-toggle="tooltip" data-placement="top" title="E-mail Me">
+        <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M16.5 12a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25"/></svg>
+      </a>
+    </li>
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/nathan-tw" target="_blank" rel="noopener" aria-label="brands/github"
+         >
+        <svg style="height: 1.5rem;" fill="currentColor" viewBox="3 3 18 18"><path d="M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z"></path></svg>
+      </a>
+    </li>
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://linkedin.com/in/hsuan-yu-lin-nathan/" target="_blank" rel="noopener" aria-label="brands/linkedin"
+         >
+        <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+      </a>
+    </li>
+    
+  </ul>
+
+  
+  <div class="pt-2 d-flex justify-content-center prose prose-slate lg:prose-xl dark:prose-invert">
+    <div class="bio-text" style="text-align: justify; font-size: 0.8em;">
+      <p>I am a Software/DevOps Engineer with experience in cloud infrastructure, automation, and system testing. My expertise spans across AWS, GCP, Kubernetes, and various programming languages including Python and Go. I have a proven track record of improving system performance, reducing errors, and implementing efficient CI/CD pipelines.</p>
+
+    </div>
+  </div>
+  
+
+  
+  <a href="uploads/cv.pdf" target="_blank" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="w-3.5 h-3.5 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+    <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
+    <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+  </svg> Download CV</a>
+  
+
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-resume-experience" class="relative hbb-section blox-resume-experience  " style="padding: 4rem 0 4rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto">
+
+
+
+
+
+<div class="flex flex-col lg:gap-x-6 w-100 px-6 sm:px-0 ">
+
+
+<div class="w-full">
+  <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">Experience</h3>
+  <ol class="relative border-s border-gray-200 dark:border-gray-700">
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">Software Engineer -- System Testing
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">Oracle</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          May 2024 –
+        
+        
+          Present
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><p>Working with OCI, Oracle Database, Python, and IPv6</p>
+<p>Responsibilities include:</p>
+<ul>
+<li>Covered 20+ cluster network testing issue including node failover, IPv6 neighbor discovery and SELinux</li>
+<li>Optimized user experience by filing bugs and feature enhancements like fixed ports data transfer</li>
+<li>Automated OCI exaDB-D database lifecycle management testing flow using Python</li>
+</ul>
+</div>
+
+      
+
+    </li>
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">DevOps Engineer
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">Ubiquiti</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          February 2022 –
+        
+        
+          May 2024
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><p>Worked with AWS, ECS, Terraform, Go, Python, Email systems, and Rate limiting</p>
+<p>Accomplishments include:</p>
+<ul>
+<li>Achieved a 90% reduction in bounce rate through email tracking and DNS validation</li>
+<li>Significantly reduced spam mail by 80% through the implementation of a rate limiter with various dimensions</li>
+<li>Reduced deployment time by 20% through CI/CD implementation with AWS CodePipeline and blue-green deployment</li>
+<li>Successfully managed over 10+ environments by configuring cloud-based infrastructures using Terraform</li>
+<li>Achieved a 50% improvement in response time by optimizing database query through analysis of slow queries</li>
+<li>Delivered a 30% reduction in unauthorized access attempts and a 25% increase in user satisfaction by integrating door access with facial recognition technology and Apple Wallet passes</li>
+</ul>
+</div>
+
+      
+
+    </li>
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">DevOps Engineer (part time)
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">Swif</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          November 2023 –
+        
+        
+          February 2024
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><p>Worked remotely with GCP, Kubernetes, Helm, ElasticSearch, and SSL.</p>
+<p>Key contributions:</p>
+<ul>
+<li>Achieved a 99.9% uptime rate by effectively managing a Kubernetes cluster deployed on GKE</li>
+<li>Maintained strict industry security standards by overseeing 50+ SSL certificates with ACME</li>
+<li>Spearheaded efforts with Vanta to resolve 20+ security issues, crucial in securing the SOC2 certificate and ensuring a compliant infrastructure</li>
+</ul>
+</div>
+
+      
+
+    </li>
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">DevOps Engineer Intern
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">Garmin</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          July 2021 –
+        
+        
+          September 2021
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><p>Worked with Kubernetes, Jmeter, Gitlab-CI, and Java</p>
+<p>Accomplishments:</p>
+<ul>
+<li>Boosted resource utilization efficiency by 30% by building a Kubernetes cluster on local servers using Kubeadm</li>
+<li>Covered 80% of RESTful APIs by seamlessly integrating a load testing service with JMeter into our CI pipeline</li>
+</ul>
+</div>
+
+      
+
+    </li>
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">DevOps Engineer Intern
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">KKStream</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          September 2020 –
+        
+        
+          June 2021
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><p>Utilized AWS, Lambda, Terraform, and Gitlab-CI</p>
+<p>Key achievements:</p>
+<ul>
+<li>Mitigated 70% of hardware-related errors for migration by transitioning from a local server to an AWS Lambda</li>
+<li>Performed Swift UI testing with XCUI framework to enhance application validation, reducing manual testing efforts by 80%</li>
+</ul>
+</div>
+
+      
+
+    </li>
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">Research Intern
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">Academia Sinica</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          July 2020 –
+        
+        
+          September 2020
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><p>Focused on ML, Static/Dynamic Analysis, Cuckoo, and Windows PE file analysis</p>
+<p>Research outcome:</p>
+<ul>
+<li>Obtained a 95% accuracy rate in Windows malware detection via the comprehensive integration of dynamic and static analysis methodologies, leveraging the predictive capabilities of both LightGBM and LSTM models</li>
+</ul>
+</div>
+
+      
+
+    </li>
+    
+  </ol>
+</div>
+
+
+
+<div class="w-full">
+  <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">Education</h3>
+    <ol class="relative border-s border-gray-200 dark:border-gray-700">
+      
+      <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path></svg>
+            </svg>
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Bachelor of Science in Management Information Systems
+
+        </h3>
+        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">National Chengchi University</span>
+        <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+          
+            September 2017 –
+          
+          
+            June 2021
+          
+        </time>
+        <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert">Completed degree in Management Information Systems with focus on technical skills and business applications.</div>
+
+        
+
+      </li>
+      
+    </ol>
+</div>
+
+
+</div>
+
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-resume-skills" class="relative hbb-section blox-resume-skills  " style="padding: 4rem 0 4rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Skills &amp; Hobbies
+  </div>
+
+  
+</div>
+
+<div class="flex flex-col lg:flex-row items-center max-w-prose mx-auto gap-3 px-6 md:px-0">
+
+  
+  
+  
+  <div class="w-full lg:w-1/2">
+    <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">
+      Technical Skills
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        DevOps
+        <p class="skills-description">CI/CD (Gitlab, Github, AWS Codepipeline, Argo, Jenkins), Kubernetes, Docker, Grafana, ElasticSearch, Jmeter</p>
+      </span>
+      
+      <div class="skills-wrapper" >
+        <div class="skills-percent" style="width: 90%; "></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Languages
+        <p class="skills-description">Python, Go, C, C++, Java, JavaScript, SQL, Bash</p>
+      </span>
+      
+      <div class="skills-wrapper" >
+        <div class="skills-percent" style="width: 85%; "></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Web
+        <p class="skills-description">Gin (Go), Flask (Python), React, Nginx, DNS, Mail Server</p>
+      </span>
+      
+      <div class="skills-wrapper" >
+        <div class="skills-percent" style="width: 80%; "></div>
+      </div>
+      
+    </div>
+    
+  </div>
+
+</div>
+
+
+
+  
+
+  
+</section>
+
+  
+
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by text-center">
+    © 2025 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by text-center">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+
+</footer>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
